@@ -6,4 +6,4 @@
     - name:  install docker
       apt:
         name: docker-ce
-        state: present
+        state: latest
