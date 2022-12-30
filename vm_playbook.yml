@@ -3,8 +3,8 @@
   become: true
 
   tasks:
-   - name: install docker
-     apt:
-       pakage: docker.io
-       state: latest
-       update_cache: true
+    - name: install docker
+      apt:
+        pakage: docker.io
+        state: latest
+        update_cache: true
