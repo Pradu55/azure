@@ -5,6 +5,5 @@
   tasks:
     - name: install docker
       apt:
-        pakage: docker.io
+        name: docker.io
         state: latest
-        update_cache: false
