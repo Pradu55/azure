@@ -101,5 +101,3 @@ output "admin_password" {
   description = "The object ID of the user"
 sensitive = true
 }
-  
-}
