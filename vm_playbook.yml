@@ -4,6 +4,6 @@
 
   tasks:
     - name:  install docker
-      apt:
+      apt_get:
         pakage: docker.io
         state: latest
