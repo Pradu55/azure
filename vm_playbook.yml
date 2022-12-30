@@ -3,7 +3,7 @@
   become:  true
 
   tasks:
-    - name: install docker
-      apt_get:
-        pakage: docker.io
-        state: latest
+   - name: install docker
+     apt:
+       pakage: docker.io
+       state: latest
